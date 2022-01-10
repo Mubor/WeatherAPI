@@ -1,0 +1,46 @@
+
+
+.wrapper {
+    margin: 0 auto;
+    padding: 1%;
+    width: 20%;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.wrapper>* {
+    margin: 2% 0;
+}
+
+.geoinfo {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.temp {
+    font-size: 25px;
+    line-height: 2.5;
+    font-weight: bold;
+}
+
+.cloudiness {
+    line-height: 3;
+}
+
+.info__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.info__text {
+    font-size: 16px;
+    color: lightgray;
+}
+
+
