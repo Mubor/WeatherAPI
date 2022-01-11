@@ -1,5 +1,6 @@
-
-
+body {
+    margin: 0;
+}
 .wrapper {
     margin: 0 auto;
     padding: 1%;
@@ -43,4 +44,33 @@
     color: lightgray;
 }
 
-
+@media (max-width: 1550px) {
+    .wrapper {
+        width: 25%;
+    }
+}
+@media (max-width: 1150px) {
+    .wrapper {
+        width: 30%;
+    }
+}
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 35%;
+    }
+}
+@media (max-width: 800px) {
+    .wrapper {
+        width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .wrapper {
+        width: 60%;
+    }
+}
+@media (max-width: 400px) {
+    .wrapper {
+        width: 100%;
+    }
+}

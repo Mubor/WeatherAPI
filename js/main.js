@@ -21,9 +21,8 @@ let output = data => {
 
 
 let promise = fetch("http://api.weatherapi.com/v1/current.json?key=b677082ac19f45aca07212645220401&q=Kiev&aqi=no");
-debugger;
-promise.then(response => response.json())
-    .then(data => output(data));
+
+promise.then(response => response.json()).then(data => output(data));
 
 
 
