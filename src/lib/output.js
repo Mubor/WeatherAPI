@@ -1,9 +1,7 @@
 // eslint-disable-next-line no-return-assign
 const fill = (id, text) => document.getElementById(id).innerHTML = text;
-
-const output = (data) => {
-  const { country, region, name, localtime} = data.location;
-  const { wind_kph, condition, humidity, temp_c, feelslike_c, pressure_mb} = data.current;
+function output ({country, region, name, localtime }, {wind_kph, condition, humidity, temp_c, feelslike_c, pressure_mb}) {
+  debugger;
   const reg = `${country}, ${region}, ${name}`;
   const img = `<img src="https:${condition.icon}" alt="cloud">`;
   const windSpeed = `${wind_kph} kph`;
